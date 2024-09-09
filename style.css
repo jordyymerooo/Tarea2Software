@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Encabezado */
+.div-header {
+    background-color: #999999;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* Datos personales */
+.div-datos-personales {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.div-datos-personales img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Estudios */
+.div-estudios,
+.div-experiencia-laboral,
+.div-capacitaciones,
+.div-referencias {
+    margin-bottom: 30px;
+}
+
+.div-estudios ul,
+.div-experiencia-laboral ul,
+.div-capacitaciones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.div-estudios li,
+.div-experiencia-laboral li,
+.div-capacitaciones li {
+    margin-bottom: 10px;
+}
+
+/* Experiencia laboral */
+.div-experiencia-laboral h3 {
+    font-weight: bold;
+}
+
+.div-experiencia-laboral h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Tabla de referencias */
+.div-referencias {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.div-referencias th,
+.div-referencias td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Colores y tipografía personalizables */
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
